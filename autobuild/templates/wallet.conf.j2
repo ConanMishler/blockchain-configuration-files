@@ -12,7 +12,6 @@ txindex=1
 addresstype=legacy
 changetype=legacy
 {% endif %}
-
 {% if deprecatedrpc is defined and deprecatedrpc is sameas true %} 
 # Enable deprecated calls
 deprecatedrpc=signrawtransaction
@@ -20,4 +19,3 @@ deprecatedrpc=signrawtransaction
 # Enable deprecated calls
 deprecatedrpc={{ deprecatedrpc }}
 {% endif %}
-
