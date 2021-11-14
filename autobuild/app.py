@@ -8,11 +8,6 @@
 from jinja2 import Template
 import json
 import os, os.path
-#import random
-#import string
-#import urllib.request
-#import argparse
-#import configparser
 from icecream import ic
 
 def Merge(dict1, dict2):
@@ -78,7 +73,6 @@ for chain in data:
         custom_template_fname = 'templates/xbridge.conf.j2'
         custom_template = J2_ENV.get_template(custom_template_fname)
         updated_dict = Merge(version_data,merged_dict) 
-        #print(updated_dict)
         rendered_data = custom_template.render(updated_dict)
         #ic(rendered_data)
         write_file(XBRIDGECONFPATH+chain['ver_id']+'.conf', rendered_data)
