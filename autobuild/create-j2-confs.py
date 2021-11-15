@@ -39,8 +39,8 @@ with open('../manifest.json') as json_file:
         
         # get latest version
         latest_version_chain = chains[-1]
-        xbridge_conf_data = get_xbridge_conf('xbridge-confs/' + latest_version_chain['xbridge_conf'], latest_version_chain['ticker'])
-        wallet_conf_data = get_wallet_conf('wallet-confs/' + latest_version_chain['wallet_conf'])
+        xbridge_conf_data = get_xbridge_conf('../xbridge-confs/' + latest_version_chain['xbridge_conf'], latest_version_chain['ticker'])
+        wallet_conf_data = get_wallet_conf('../wallet-confs/' + latest_version_chain['wallet_conf'])
         template_data['Title'] = xbridge_conf_data['title']
         template_data['Address'] = xbridge_conf_data['address']
         template_data['Ip'] = xbridge_conf_data['ip']

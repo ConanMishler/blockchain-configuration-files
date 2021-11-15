@@ -4,8 +4,6 @@ import os, sys, os.path
 from shutil import copyfile
 import glob
 
-#XBRIDGE_SRC_BASE_DIR = os.getcwd() + '../xbridge-confs/'
-#WALLET_SRC_BASE_DIR = os.getcwd() + '../wallet-confs/'
 XBRIDGE_SRC_BASE_DIR = '../xbridge-confs/'
 WALLET_SRC_BASE_DIR = '../wallet-confs/'
 
@@ -69,5 +67,4 @@ for chain in data:
             os.remove(conf_path)
 
 sorted_data = sorted(data, key = lambda d: (d['blockchain'].lower()), reverse= False)
-#write_file(os.getcwd() + '../manifest-new.json', sorted_data)
-write_file('../manifest-new.json', sorted_data)
+write_file('../manifest.json', sorted_data)
