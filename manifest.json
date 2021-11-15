@@ -34,7 +34,7 @@
     {
         "blockchain": "Altbet",
         "ticker": "ABET",
-        "ver_id": "abet--v3.4.1.0+",
+        "ver_id": "abet--v3.4.1.0",
         "ver_name": "Altbet",
         "conf_name": "abet.conf",
         "dir_name_linux": "abet",
@@ -45,8 +45,8 @@
             "v3.4.1.0",
             "v3.4.1.0+"
         ],
-        "xbridge_conf": "abet--v3.4.1.0+.conf",
-        "wallet_conf": "abet--v3.4.1.0+.conf"
+        "xbridge_conf": "abet--v3.4.1.0.conf",
+        "wallet_conf": "abet--v3.4.1.0.conf"
     },
     {
         "blockchain": "APR Coin",
@@ -67,7 +67,7 @@
     {
         "blockchain": "Argoneum",
         "ticker": "AGM",
-        "ver_id": "argoneum--v1.4.1.0",
+        "ver_id": "argoneum--v1.4.0.0",
         "ver_name": "Argoneum",
         "conf_name": "argoneum.conf",
         "dir_name_linux": "argoneum",
@@ -78,8 +78,8 @@
             "v1.4.0.0",
             "v1.4.1.0"
         ],
-        "xbridge_conf": "argoneum--v1.4.1.0.conf",
-        "wallet_conf": "argoneum--v1.4.1.0.conf"
+        "xbridge_conf": "argoneum--v1.4.0.0.conf",
+        "wallet_conf": "argoneum--v1.4.0.0.conf"
     },
     {
         "blockchain": "ATBCoin",
@@ -148,7 +148,7 @@
     {
         "blockchain": "Bitcoin",
         "ticker": "BTC",
-        "ver_id": "bitcoin--v0.15.2",
+        "ver_id": "bitcoin--v0.15.1",
         "ver_name": "Bitcoin v0.15.x",
         "conf_name": "bitcoin.conf",
         "dir_name_linux": "bitcoin",
@@ -159,13 +159,13 @@
             "v0.15.1",
             "v0.15.2"
         ],
-        "xbridge_conf": "bitcoin--v0.15.2.conf",
-        "wallet_conf": "bitcoin--v0.15.2.conf"
+        "xbridge_conf": "bitcoin--v0.15.1.conf",
+        "wallet_conf": "bitcoin--v0.15.1.conf"
     },
     {
         "blockchain": "Bitcoin",
         "ticker": "BTC",
-        "ver_id": "bitcoin--v0.16.3",
+        "ver_id": "bitcoin--v0.16.0",
         "ver_name": "Bitcoin v0.16.x",
         "conf_name": "bitcoin.conf",
         "dir_name_linux": "bitcoin",
@@ -178,13 +178,13 @@
             "v0.16.2",
             "v0.16.3"
         ],
-        "xbridge_conf": "bitcoin--v0.16.3.conf",
-        "wallet_conf": "bitcoin--v0.16.3.conf"
+        "xbridge_conf": "bitcoin--v0.16.0.conf",
+        "wallet_conf": "bitcoin--v0.16.0.conf"
     },
     {
         "blockchain": "Bitcoin",
         "ticker": "BTC",
-        "ver_id": "bitcoin--v0.17.1",
+        "ver_id": "bitcoin--v0.17.0",
         "ver_name": "Bitcoin v0.17.x",
         "conf_name": "bitcoin.conf",
         "dir_name_linux": "bitcoin",
@@ -196,13 +196,13 @@
             "v0.17.0.1",
             "v0.17.1"
         ],
-        "xbridge_conf": "bitcoin--v0.17.1.conf",
-        "wallet_conf": "bitcoin--v0.17.1.conf"
+        "xbridge_conf": "bitcoin--v0.17.0.conf",
+        "wallet_conf": "bitcoin--v0.17.0.conf"
     },
     {
         "blockchain": "Bitcoin",
         "ticker": "BTC",
-        "ver_id": "bitcoin--v0.18.1",
+        "ver_id": "bitcoin--v0.18.0",
         "ver_name": "Bitcoin v0.18.x",
         "conf_name": "bitcoin.conf",
         "dir_name_linux": "bitcoin",
@@ -213,13 +213,13 @@
             "v0.18.0",
             "v0.18.1"
         ],
-        "xbridge_conf": "bitcoin--v0.18.1.conf",
-        "wallet_conf": "bitcoin--v0.18.1.conf"
+        "xbridge_conf": "bitcoin--v0.18.0.conf",
+        "wallet_conf": "bitcoin--v0.18.0.conf"
     },
     {
         "blockchain": "Bitcoin",
         "ticker": "BTC",
-        "ver_id": "bitcoin--v0.19.1",
+        "ver_id": "bitcoin--v0.19.0",
         "ver_name": "Bitcoin v0.19.x",
         "conf_name": "bitcoin.conf",
         "dir_name_linux": "bitcoin",
@@ -231,8 +231,8 @@
             "v0.19.0.1",
             "v0.19.1"
         ],
-        "xbridge_conf": "bitcoin--v0.19.1.conf",
-        "wallet_conf": "bitcoin--v0.19.1.conf"
+        "xbridge_conf": "bitcoin--v0.19.0.conf",
+        "wallet_conf": "bitcoin--v0.19.0.conf"
     },
     {
         "blockchain": "Bitcoin",
@@ -333,7 +333,7 @@
     {
         "blockchain": "BitCore",
         "ticker": "BTX",
-        "ver_id": "bitcore--0.90.9.1",
+        "ver_id": "bitcore--0.90.8.8.1",
         "ver_name": "BitCore 0.90.x",
         "conf_name": "bitcore.conf",
         "dir_name_linux": "bitcore",
@@ -348,13 +348,13 @@
             "0.90.9.0",
             "0.90.9.1"
         ],
-        "xbridge_conf": "bitcore--0.90.9.1.conf",
-        "wallet_conf": "bitcore--0.90.9.1.conf"
+        "xbridge_conf": "bitcore--0.90.8.8.1.conf",
+        "wallet_conf": "bitcore--0.90.8.8.1.conf"
     },
     {
         "blockchain": "BitGreen",
         "ticker": "BITG",
-        "ver_id": "bitgreen--v1.5.0.2",
+        "ver_id": "bitgreen--v1.4.0.8",
         "ver_name": "BitGreen",
         "conf_name": "bitgreen.conf",
         "dir_name_linux": "bitgreen",
@@ -367,8 +367,8 @@
             "v1.5.0.1",
             "v1.5.0.2"
         ],
-        "xbridge_conf": "bitgreen--v1.5.0.2.conf",
-        "wallet_conf": "bitgreen--v1.5.0.2.conf"
+        "xbridge_conf": "bitgreen--v1.4.0.8.conf",
+        "wallet_conf": "bitgreen--v1.4.0.8.conf"
     },
     {
         "blockchain": "BitMoney",
@@ -429,7 +429,10 @@
         "dir_name_win": "Blocknet",
         "repo_url": "https://github.com/blocknetdx/blocknet",
         "versions": [
-            "v4.3.0"
+            "v4.3.0",
+            "v4.3.1",
+            "v4.3.2",
+            "v4.3.3"
         ],
         "xbridge_conf": "blocknet--v4.3.0.conf",
         "wallet_conf": "blocknet--v4.3.0.conf"
@@ -501,7 +504,7 @@
     {
         "blockchain": "ColossusXT",
         "ticker": "COLX",
-        "ver_id": "colossusxt--v1.2.4",
+        "ver_id": "colossusxt--v1.2.3",
         "ver_name": "ColossusXT",
         "conf_name": "ColossusXT.conf",
         "dir_name_linux": "ColossusXT",
@@ -512,8 +515,8 @@
             "v1.2.3",
             "v1.2.4"
         ],
-        "xbridge_conf": "colossusxt--v1.2.4.conf",
-        "wallet_conf": "colossusxt--v1.2.4.conf"
+        "xbridge_conf": "colossusxt--v1.2.3.conf",
+        "wallet_conf": "colossusxt--v1.2.3.conf"
     },
     {
         "blockchain": "Crave",
@@ -566,7 +569,7 @@
     {
         "blockchain": "Dash",
         "ticker": "DASH",
-        "ver_id": "dash--v0.15.0.0",
+        "ver_id": "dash--v0.14.0.2",
         "ver_name": "Dash",
         "conf_name": "dash.conf",
         "dir_name_linux": "dashcore",
@@ -580,13 +583,13 @@
             "v0.14.0.5",
             "v0.15.0.0"
         ],
-        "xbridge_conf": "dash--v0.15.0.0.conf",
-        "wallet_conf": "dash--v0.15.0.0.conf"
+        "xbridge_conf": "dash--v0.14.0.2.conf",
+        "wallet_conf": "dash--v0.14.0.2.conf"
     },
     {
         "blockchain": "Denarius",
         "ticker": "D",
-        "ver_id": "denarius--v3.3.9.9",
+        "ver_id": "denarius--v3.3.9.8",
         "ver_name": "Denarius",
         "conf_name": "denarius.conf",
         "dir_name_linux": "denarius",
@@ -597,8 +600,8 @@
             "v3.3.9.8",
             "v3.3.9.9"
         ],
-        "xbridge_conf": "denarius--v3.3.9.9.conf",
-        "wallet_conf": "denarius--v3.3.9.9.conf"
+        "xbridge_conf": "denarius--v3.3.9.8.conf",
+        "wallet_conf": "denarius--v3.3.9.8.conf"
     },
     {
         "blockchain": "Desire",
@@ -683,7 +686,7 @@
     {
         "blockchain": "Divi",
         "ticker": "DIVI",
-        "ver_id": "divi--DESK-1.6.6",
+        "ver_id": "divi--v1.1.2",
         "ver_name": "Divi",
         "conf_name": "divi.conf",
         "dir_name_linux": "divi",
@@ -694,8 +697,8 @@
             "v1.1.2",
             "DESK-1.6.6"
         ],
-        "xbridge_conf": "divi--DESK-1.6.6.conf",
-        "wallet_conf": "divi--DESK-1.6.6.conf"
+        "xbridge_conf": "divi--v1.1.2.conf",
+        "wallet_conf": "divi--v1.1.2.conf"
     },
     {
         "blockchain": "DogeCash",
@@ -732,7 +735,7 @@
     {
         "blockchain": "Dynamic",
         "ticker": "DYN",
-        "ver_id": "dynamic--v2.4.4.1",
+        "ver_id": "dynamic--v2.4.3.0",
         "ver_name": "Dynamic",
         "conf_name": "dynamic.conf",
         "dir_name_linux": "dynamic",
@@ -744,8 +747,8 @@
             "v2.4.4.0",
             "v2.4.4.1"
         ],
-        "xbridge_conf": "dynamic--v2.4.4.1.conf",
-        "wallet_conf": "dynamic--v2.4.4.1.conf"
+        "xbridge_conf": "dynamic--v2.4.3.0.conf",
+        "wallet_conf": "dynamic--v2.4.3.0.conf"
     },
     {
         "blockchain": "Einsteinium",
@@ -766,7 +769,7 @@
     {
         "blockchain": "Electra",
         "ticker": "ECA",
-        "ver_id": "electra--2.1.2",
+        "ver_id": "electra--2.1.1",
         "ver_name": "Electra",
         "conf_name": "Electra.conf",
         "dir_name_linux": "electra",
@@ -777,8 +780,8 @@
             "2.1.1",
             "2.1.2"
         ],
-        "xbridge_conf": "electra--2.1.2.conf",
-        "wallet_conf": "electra--2.1.2.conf"
+        "xbridge_conf": "electra--2.1.1.conf",
+        "wallet_conf": "electra--2.1.1.conf"
     },
     {
         "blockchain": "Emercoin",
@@ -863,7 +866,7 @@
     {
         "blockchain": "Flo",
         "ticker": "FLO",
-        "ver_id": "flo--v0.15.2.1",
+        "ver_id": "flo--v0.15.2.0",
         "ver_name": "Flo",
         "conf_name": "flo.conf",
         "dir_name_linux": "flo",
@@ -874,8 +877,8 @@
             "v0.15.2.0",
             "v0.15.2.1"
         ],
-        "xbridge_conf": "flo--v0.15.2.1.conf",
-        "wallet_conf": "flo--v0.15.2.1.conf"
+        "xbridge_conf": "flo--v0.15.2.0.conf",
+        "wallet_conf": "flo--v0.15.2.0.conf"
     },
     {
         "blockchain": "FujiCoin",
@@ -1168,7 +1171,7 @@
     {
         "blockchain": "Know Your Developer",
         "ticker": "KYDC",
-        "ver_id": "kyd--3.3.1",
+        "ver_id": "kyd--3.2.1",
         "ver_name": "Know Your Developer",
         "conf_name": "kyd.conf",
         "dir_name_linux": "kydcore",
@@ -1179,8 +1182,8 @@
             "3.2.1",
             "3.3.1"
         ],
-        "xbridge_conf": "kyd--3.3.1.conf",
-        "wallet_conf": "kyd--3.3.1.conf"
+        "xbridge_conf": "kyd--3.2.1.conf",
+        "wallet_conf": "kyd--3.2.1.conf"
     },
     {
         "blockchain": "Kreds",
@@ -1217,7 +1220,7 @@
     {
         "blockchain": "LBRY Credits",
         "ticker": "LBC",
-        "ver_id": "lbrycrd--v0.17.4.6",
+        "ver_id": "lbrycrd--v0.17.3.1",
         "ver_name": "LBRY Credits",
         "conf_name": "lbrycrd.conf",
         "dir_name_linux": "lbrycrd",
@@ -1231,8 +1234,8 @@
             "v0.17.4.5",
             "v0.17.4.6"
         ],
-        "xbridge_conf": "lbrycrd--v0.17.4.6.conf",
-        "wallet_conf": "lbrycrd--v0.17.4.6.conf"
+        "xbridge_conf": "lbrycrd--v0.17.3.1.conf",
+        "wallet_conf": "lbrycrd--v0.17.3.1.conf"
     },
     {
         "blockchain": "Litecoin",
@@ -1253,7 +1256,7 @@
     {
         "blockchain": "Litecoin",
         "ticker": "LTC",
-        "ver_id": "litecoin--v0.16.3",
+        "ver_id": "litecoin--v0.16.0",
         "ver_name": "Litecoin v0.16.x",
         "conf_name": "litecoin.conf",
         "dir_name_linux": "litecoin",
@@ -1265,8 +1268,8 @@
             "v0.16.2",
             "v0.16.3"
         ],
-        "xbridge_conf": "litecoin--v0.16.3.conf",
-        "wallet_conf": "litecoin--v0.16.3.conf"
+        "xbridge_conf": "litecoin--v0.16.0.conf",
+        "wallet_conf": "litecoin--v0.16.0.conf"
     },
     {
         "blockchain": "Litecoin",
@@ -1335,7 +1338,7 @@
     {
         "blockchain": "Machinecoin",
         "ticker": "MAC",
-        "ver_id": "machinecoin--v0.17.1",
+        "ver_id": "machinecoin--v0.16.3",
         "ver_name": "Machinecoin",
         "conf_name": "machinecoin.conf",
         "dir_name_linux": "machinecoin",
@@ -1346,8 +1349,8 @@
             "v0.16.3",
             "v0.17.1"
         ],
-        "xbridge_conf": "machinecoin--v0.17.1.conf",
-        "wallet_conf": "machinecoin--v0.17.1.conf"
+        "xbridge_conf": "machinecoin--v0.16.3.conf",
+        "wallet_conf": "machinecoin--v0.16.3.conf"
     },
     {
         "blockchain": "Metrix",
@@ -1362,8 +1365,8 @@
         "versions": [
             "v4.0.3"
         ],
-        "xbridge_conf": "Metrix--v4.0.3.conf",
-        "wallet_conf": "Metrix--v4.0.3.conf"
+        "xbridge_conf": "metrix--v4.0.3.conf",
+        "wallet_conf": "metrix--v4.0.3.conf"
     },
     {
         "blockchain": "MktCoin",
@@ -1416,7 +1419,7 @@
     {
         "blockchain": "MonetaryUnit",
         "ticker": "MUE",
-        "ver_id": "monetaryunit--v2.1.6",
+        "ver_id": "monetaryunit--v2.1.4",
         "ver_name": "MonetaryUnit",
         "conf_name": "monetaryunit.conf",
         "dir_name_linux": "monetaryunit",
@@ -1427,8 +1430,8 @@
             "v2.1.4",
             "v2.1.6"
         ],
-        "xbridge_conf": "monetaryunit--v2.1.6.conf",
-        "wallet_conf": "monetaryunit--v2.1.6.conf"
+        "xbridge_conf": "monetaryunit--v2.1.4.conf",
+        "wallet_conf": "monetaryunit--v2.1.4.conf"
     },
     {
         "blockchain": "Monoeci",
@@ -1449,7 +1452,7 @@
     {
         "blockchain": "Myriad",
         "ticker": "XMY",
-        "ver_id": "myriadcoin--v0.18.1.0",
+        "ver_id": "myriadcoin--v0.16.4.1",
         "ver_name": "Myriad",
         "conf_name": "myriadcoin.conf",
         "dir_name_linux": "myriadcoin",
@@ -1460,13 +1463,13 @@
             "v0.16.4.1",
             "v0.18.1.0"
         ],
-        "xbridge_conf": "myriadcoin--v0.18.1.0.conf",
-        "wallet_conf": "myriadcoin--v0.18.1.0.conf"
+        "xbridge_conf": "myriadcoin--v0.16.4.1.conf",
+        "wallet_conf": "myriadcoin--v0.16.4.1.conf"
     },
     {
         "blockchain": "Namecoin",
         "ticker": "NMC",
-        "ver_id": "namecoin--nc0.20.0",
+        "ver_id": "namecoin--nc0.13.99-name-tab-beta1",
         "ver_name": "Namecoin",
         "conf_name": "namecoin.conf",
         "dir_name_linux": "namecoin",
@@ -1485,8 +1488,8 @@
             "nc0.19.1",
             "nc0.20.0"
         ],
-        "xbridge_conf": "namecoin--nc0.20.0.conf",
-        "wallet_conf": "namecoin--nc0.20.0.conf"
+        "xbridge_conf": "namecoin--nc0.13.99-name-tab-beta1.conf",
+        "wallet_conf": "namecoin--nc0.13.99-name-tab-beta1.conf"
     },
     {
         "blockchain": "NativeCoin",
@@ -1507,7 +1510,7 @@
     {
         "blockchain": "Nix",
         "ticker": "NIX",
-        "ver_id": "nix--v3.0.8",
+        "ver_id": "nix--v3.0.7",
         "ver_name": "Nix",
         "conf_name": "nix.conf",
         "dir_name_linux": "nix",
@@ -1518,8 +1521,8 @@
             "v3.0.7",
             "v3.0.8"
         ],
-        "xbridge_conf": "nix--v3.0.8.conf",
-        "wallet_conf": "nix--v3.0.8.conf"
+        "xbridge_conf": "nix--v3.0.7.conf",
+        "wallet_conf": "nix--v3.0.7.conf"
     },
     {
         "blockchain": "Nodium",
@@ -1556,7 +1559,7 @@
     {
         "blockchain": "Northern",
         "ticker": "NORT",
-        "ver_id": "northern--3.3.2",
+        "ver_id": "northern--3.3.1",
         "ver_name": "Northern",
         "conf_name": "northern.conf",
         "dir_name_linux": "northern",
@@ -1567,8 +1570,8 @@
             "3.3.1",
             "3.3.2"
         ],
-        "xbridge_conf": "northern--3.3.2.conf",
-        "wallet_conf": "northern--3.3.2.conf"
+        "xbridge_conf": "northern--3.3.1.conf",
+        "wallet_conf": "northern--3.3.1.conf"
     },
     {
         "blockchain": "Nyerium",
@@ -1701,7 +1704,7 @@
     {
         "blockchain": "PIVX",
         "ticker": "PIVX",
-        "ver_id": "pivx--v5.3.0",
+        "ver_id": "pivx--v5.0.1",
         "ver_name": "PIVX",
         "conf_name": "pivx.conf",
         "dir_name_linux": "pivx",
@@ -1712,8 +1715,8 @@
             "v5.0.1",
             "v5.3.0"
         ],
-        "xbridge_conf": "pivx--v5.3.0.conf",
-        "wallet_conf": "pivx--v5.3.0.conf"
+        "xbridge_conf": "pivx--v5.0.1.conf",
+        "wallet_conf": "pivx--v5.0.1.conf"
     },
     {
         "blockchain": "Placeholders",
@@ -1734,7 +1737,7 @@
     {
         "blockchain": "Polis",
         "ticker": "POLIS",
-        "ver_id": "polis--v1.6.3",
+        "ver_id": "polis--v1.6.0",
         "ver_name": "Polis",
         "conf_name": "polis.conf",
         "dir_name_linux": "poliscore",
@@ -1747,8 +1750,8 @@
             "v1.6.2",
             "v1.6.3"
         ],
-        "xbridge_conf": "polis--v1.6.3.conf",
-        "wallet_conf": "polis--v1.6.3.conf"
+        "xbridge_conf": "polis--v1.6.0.conf",
+        "wallet_conf": "polis--v1.6.0.conf"
     },
     {
         "blockchain": "Pura",
@@ -1833,7 +1836,7 @@
     {
         "blockchain": "Ravencoin",
         "ticker": "RVN",
-        "ver_id": "raven--v4.2.1",
+        "ver_id": "raven--v4.1.0",
         "ver_name": "Ravencoin",
         "conf_name": "raven.conf",
         "dir_name_linux": "raven",
@@ -1845,8 +1848,8 @@
             "v4.2.0",
             "v4.2.1"
         ],
-        "xbridge_conf": "raven--v4.2.1.conf",
-        "wallet_conf": "raven--v4.2.1.conf"
+        "xbridge_conf": "raven--v4.1.0.conf",
+        "wallet_conf": "raven--v4.1.0.conf"
     },
     {
         "blockchain": "Reecore",
@@ -1883,7 +1886,7 @@
     {
         "blockchain": "Secure Cloud Net",
         "ticker": "SCN",
-        "ver_id": "securecloud--v2.5.1.2",
+        "ver_id": "securecloud--v2.5.1.1",
         "ver_name": "Secure Cloud Net",
         "conf_name": "securecloud.conf",
         "dir_name_linux": "securecloud",
@@ -1894,8 +1897,8 @@
             "v2.5.1.1",
             "v2.5.1.2"
         ],
-        "xbridge_conf": "securecloud--v2.5.1.2.conf",
-        "wallet_conf": "securecloud--v2.5.1.2.conf"
+        "xbridge_conf": "securecloud--v2.5.1.1.conf",
+        "wallet_conf": "securecloud--v2.5.1.1.conf"
     },
     {
         "blockchain": "Sequence",
@@ -1948,7 +1951,7 @@
     {
         "blockchain": "Social Send",
         "ticker": "SEND",
-        "ver_id": "send--v1.2.1.0",
+        "ver_id": "send--1.2.0.5",
         "ver_name": "Social Send",
         "conf_name": "send.conf",
         "dir_name_linux": "send",
@@ -1959,8 +1962,8 @@
             "1.2.0.5",
             "v1.2.1.0"
         ],
-        "xbridge_conf": "send--v1.2.1.0.conf",
-        "wallet_conf": "send--v1.2.1.0.conf"
+        "xbridge_conf": "send--1.2.0.5.conf",
+        "wallet_conf": "send--1.2.0.5.conf"
     },
     {
         "blockchain": "SparksPay",
@@ -2045,7 +2048,7 @@
     {
         "blockchain": "Syscoin",
         "ticker": "SYS",
-        "ver_id": "syscoin--v4.3",
+        "ver_id": "syscoin--v4.1.3",
         "ver_name": "Syscoin 4",
         "conf_name": "syscoin.conf",
         "dir_name_linux": "syscoin",
@@ -2056,13 +2059,13 @@
             "v4.1.3",
             "v4.3"
         ],
-        "xbridge_conf": "syscoin--v4.3.conf",
-        "wallet_conf": "syscoin--v4.3.conf"
+        "xbridge_conf": "syscoin--v4.1.3.conf",
+        "wallet_conf": "syscoin--v4.1.3.conf"
     },
     {
         "blockchain": "Terracoin",
         "ticker": "TRC",
-        "ver_id": "terracoin--v0.12.2.5",
+        "ver_id": "terracoin--v0.12.2.4",
         "ver_name": "Terracoin",
         "conf_name": "terracoin.conf",
         "dir_name_linux": "terracoincore",
@@ -2073,8 +2076,8 @@
             "v0.12.2.4",
             "v0.12.2.5"
         ],
-        "xbridge_conf": "terracoin--v0.12.2.5.conf",
-        "wallet_conf": "terracoin--v0.12.2.5.conf"
+        "xbridge_conf": "terracoin--v0.12.2.4.conf",
+        "wallet_conf": "terracoin--v0.12.2.4.conf"
     },
     {
         "blockchain": "Tribe",
@@ -2111,7 +2114,7 @@
     {
         "blockchain": "Unobtanium",
         "ticker": "UNO",
-        "ver_id": "unobtanium--v0.11.0",
+        "ver_id": "unobtanium--v0.10.5",
         "ver_name": "Unobtanium",
         "conf_name": "unobtanium.conf",
         "dir_name_linux": "unobtanium",
@@ -2122,8 +2125,8 @@
             "v0.10.5",
             "v0.11.0"
         ],
-        "xbridge_conf": "unobtanium--v0.11.0.conf",
-        "wallet_conf": "unobtanium--v0.11.0.conf"
+        "xbridge_conf": "unobtanium--v0.10.5.conf",
+        "wallet_conf": "unobtanium--v0.10.5.conf"
     },
     {
         "blockchain": "Verge",
@@ -2144,7 +2147,7 @@
     {
         "blockchain": "Vertcoin",
         "ticker": "VTC",
-        "ver_id": "vertcoin--0.15.0.1",
+        "ver_id": "vertcoin--0.14.0",
         "ver_name": "Vertcoin",
         "conf_name": "vertcoin.conf",
         "dir_name_linux": "vertcoin",
@@ -2156,8 +2159,8 @@
             "0.15.0",
             "0.15.0.1"
         ],
-        "xbridge_conf": "vertcoin--0.15.0.1.conf",
-        "wallet_conf": "vertcoin--0.15.0.1.conf"
+        "xbridge_conf": "vertcoin--0.14.0.conf",
+        "wallet_conf": "vertcoin--0.14.0.conf"
     },
     {
         "blockchain": "Viacoin",
@@ -2178,7 +2181,7 @@
     {
         "blockchain": "Vitae",
         "ticker": "VITAE",
-        "ver_id": "vitae--v4.4.2",
+        "ver_id": "vitae--v4.4.0.3",
         "ver_name": "Vitae",
         "conf_name": "vitae.conf",
         "dir_name_linux": "vitae",
@@ -2189,8 +2192,8 @@
             "v4.4.0.3",
             "v4.4.2"
         ],
-        "xbridge_conf": "vitae--v4.4.2.conf",
-        "wallet_conf": "vitae--v4.4.2.conf"
+        "xbridge_conf": "vitae--v4.4.0.3.conf",
+        "wallet_conf": "vitae--v4.4.0.3.conf"
     },
     {
         "blockchain": "VIVO",
@@ -2211,7 +2214,7 @@
     {
         "blockchain": "Vsync",
         "ticker": "VSX",
-        "ver_id": "vsync--v3.8.7.7",
+        "ver_id": "vsync--v3.8.7.6",
         "ver_name": "Vsync",
         "conf_name": "vsync.conf",
         "dir_name_linux": "vsync",
@@ -2222,8 +2225,8 @@
             "v3.8.7.6",
             "v3.8.7.7"
         ],
-        "xbridge_conf": "vsync--v3.8.7.7.conf",
-        "wallet_conf": "vsync--v3.8.7.7.conf"
+        "xbridge_conf": "vsync--v3.8.7.6.conf",
+        "wallet_conf": "vsync--v3.8.7.6.conf"
     },
     {
         "blockchain": "Wagerr",
@@ -2275,7 +2278,7 @@
     {
         "blockchain": "ZCoin",
         "ticker": "XZC",
-        "ver_id": "zcoin--v0.14.0.2",
+        "ver_id": "zcoin--v0.14.0.1",
         "ver_name": "ZCoin",
         "conf_name": "zcoin.conf",
         "dir_name_linux": "zcoin",
@@ -2286,8 +2289,8 @@
             "v0.14.0.1",
             "v0.14.0.2"
         ],
-        "xbridge_conf": "zcoin--v0.14.0.2.conf",
-        "wallet_conf": "zcoin--v0.14.0.2.conf"
+        "xbridge_conf": "zcoin--v0.14.0.1.conf",
+        "wallet_conf": "zcoin--v0.14.0.1.conf"
     },
     {
         "blockchain": "ZENZO",

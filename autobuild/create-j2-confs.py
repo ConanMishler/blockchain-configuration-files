@@ -6,9 +6,17 @@
 #        ../manifest.conf 
 # and writes
 #        config/*.base.j2
-# files which are among the inputs to app.py.
+# files which are among the inputs to app.py. On successful completion it 
+# writes a list of all generated coin tickers (which can be used to update
+# the default COIN_LIST in app.py)
 #
-# It is expected to be a one-time execution tool.
+# It is expected to be a one-time execution tool, used to generate the j2
+# templates from 
+#        {wallet,xbridge}-confs/*.conf
+#
+# Thereafter updates, additions and deletions will be made in/to/of the j2
+# files and app.py will regenerate the
+#        {wallet,xbridge}-confs/*.conf
 #
 import json
 import os, os.path

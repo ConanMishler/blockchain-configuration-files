@@ -26,18 +26,18 @@ with open('../manifest.json') as json_file:
     data = json.load(json_file)
 
 for chain in data:
-    # get latest version
-    latest_ver_id = chain['versions'][-1]    
+    # get base version. Using latest version will change the config name every time
+    base_ver_id = chain['versions'][0]    
 
     sep = '--'
-    chain['ver_id'] = chain['ver_id'].split(sep, 1)[0] + sep + latest_ver_id
+    chain['ver_id'] = chain['ver_id'].split(sep, 1)[0] + sep + base_ver_id
 
     old_xbridge_conf_ver = chain['xbridge_conf']
-    new_xbridge_conf_ver = old_xbridge_conf_ver.split(sep, 1)[0] + sep + latest_ver_id + '.conf'
+    new_xbridge_conf_ver = old_xbridge_conf_ver.split(sep, 1)[0] + sep + base_ver_id + '.conf'
     chain['xbridge_conf'] = new_xbridge_conf_ver
 
     old_wallet_conf_ver = chain['wallet_conf']
-    new_wallet_conf_ver = old_wallet_conf_ver.split(sep, 1)[0] + sep + latest_ver_id + '.conf'
+    new_wallet_conf_ver = old_wallet_conf_ver.split(sep, 1)[0] + sep + base_ver_id + '.conf'
     chain['wallet_conf'] = new_wallet_conf_ver
 
     if old_xbridge_conf_ver.split('.conf', 1)[0].lower() != chain['ver_id'].lower():

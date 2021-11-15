@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 #
-# app.py is the third step in migrating manifest and configs to the new j2
-# based workflow. It is also the main step in regular coin configuration 
-# maintenance. It should be run inside the autobuild directory. 
+# app.py is the main step in regular coin configuration maintenance. It is
+# also the third step in migrating manifest and configs to the new j2 based
+# workflow. It should be run with the autobuild directory as current working
+# directory. 
 #
 # It reads as sources of truth: 
 #        ../manifest.json
@@ -16,9 +17,12 @@
 #
 # for input to other automation (eg: Docker image creation) processes.
 #
-# With no parameters it will process all the coins in the known COIN_LIST.
-# If a parameter is given it should be a comma separated list (no spaces) 
-# of specific coins to generate config fragments for. 
+# With no parameters it will process all the coins in the known COIN_LIST and
+# this is the expected normal usage.
+#
+# If a parameter is given it should be a comma separated list (no spaces) of 
+# specific coins to generate config fragments for. This function is intended
+# mainly for testing. 
 # 
 from jinja2 import Template
 import json
