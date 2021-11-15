@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-
+#
+# WIP - DO NOT USE
+#
+# manifest-management.py is intended to make adding, updating and deleting
+# coin confiruations less error-prone. It is not yet ready for prime-time
+# and should not be used. 
+#
 import json
 import os, sys, os.path
 
