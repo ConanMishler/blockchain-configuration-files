@@ -1,0 +1,34 @@
+{
+    "ZNZ": {
+        "Title": "ZENZOCore",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(26211)}}",
+        "p2pPort": "{{ p2pPort|default(26210)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "81",
+        "ScriptPrefix": "53",
+        "SecretPrefix": "215",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "0",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "25",
+        "Confirmations": "0",
+        "versions": {
+            "v2.1.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "zenzo--v2.1.0.conf",
+                "wallet_conf": "zenzo--v2.1.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

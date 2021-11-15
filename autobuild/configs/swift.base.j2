@@ -1,0 +1,34 @@
+{
+    "SWIFT": {
+        "Title": "SwiftCash",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8543)}}",
+        "p2pPort": "{{ p2pPort|default(8544)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "63",
+        "ScriptPrefix": "18",
+        "SecretPrefix": "152",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "100000",
+        "BlockTime": "600",
+        "TxVersion": "2",
+        "FeePerByte": "12",
+        "Confirmations": "1",
+        "versions": {
+            "3.0.5": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "swiftcash--3.0.5.conf",
+                "wallet_conf": "swiftcash--3.0.5.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
