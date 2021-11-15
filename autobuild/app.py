@@ -1,13 +1,25 @@
 #!/usr/bin/env python3
 # This script should be run inside the autobuild directory. 
-# It reads ../manifest.json and configs/*.base.j2 as sources
-# of truth, and templates/*.j2 as input patterns, and writes 
-# new ../{wallet,xbridge}-confs/*.conf for input to other 
-# automation processes.
+# It reads as sources of truth: 
+#        ../manifest.json
+#        configs/*.base.j2 
+#
+# and template patterns from
+#        templates/*.j2
+#
+# and writes new 
+#        ../{wallet,xbridge}-confs/*.conf 
+#
+# for input to other automation processes.
+#
+# With no parameters it will process all the coins in the known COIN_LIST.
+# If a parameter is given it should be a comma separated list (no spaces) 
+# of specific coins to generate configs for. 
 # 
 from jinja2 import Template
 import json
 import os, os.path
+import sys
 from icecream import ic
 
 def Merge(dict1, dict2):
@@ -24,8 +36,12 @@ def write_file(filename, rendered_data):
 
 from jinja2 import Environment, FileSystemLoader, Template
 
-COIN_LIST='ABET,ABS,AEX,AGM,APR,ATB,AUS,BAD,BCD,BCH,BCZ,BIT,BITG,BLAST,BLOCK,BSD,BTC,BTDX,BTG,BTX,BZX,CARE,CDZC,CHC,CHN,CIV,CNMC,COLX,CRAVE,D,DASH,DGB,DIVI,DMD,DOGE,DOGEC,DSR,DVT,DYN,ECA,EMC,EMC2,ENT,FAIR,FGC,FJC,FLO,GALI,GBX,GEEK,GIN,GMCN,GXX,HASH,HATCH,HLM,HTML,INN,IOP,IXC,JEW,JIYOX,KLKS,KREDS,KYDC,KZC,LBC,LTC,LUX,LYNX,MAC,MLM,MNP,MONA,MUE,N8V,NIX,NMC,NOR,NORT,NYEX,NYX,ODIN,OHMC,OPCX,ORE,PAC,PHL,PHR,PIVX,POLIS,PURA,QBIC,QTUM,RAP,REEX,RPD,RVN,SCN,SCRIBE,SEND,SEQ,SIB,SPK,STAK,SUB1X,SYS,TRB,TRC,UFO,UNO,VIA,VITAE,VIVO,VSX,VTC,WAGE,WGR,XC,XMCC,XMY,XN,XP,XVG,XZC'
-
+ic(len(sys.argv))
+if len(sys.argv) == 1:
+    COIN_LIST='ABET,ABS,AEX,AGM,APR,ATB,AUS,BAD,BCD,BCH,BCZ,BIT,BITG,BLAST,BLOCK,BSD,BTC,BTDX,BTG,BTX,BZX,CARE,CDZC,CHC,CHN,CIV,CNMC,COLX,CRAVE,D,DASH,DGB,DIVI,DMD,DOGE,DOGEC,DSR,DVT,DYN,ECA,EMC,EMC2,ENT,FAIR,FGC,FJC,FLO,GALI,GBX,GEEK,GIN,GMCN,GXX,HASH,HATCH,HLM,HTML,INN,IOP,IXC,JEW,JIYOX,KLKS,KREDS,KYDC,KZC,LBC,LTC,LUX,LYNX,MAC,MLM,MNP,MONA,MUE,N8V,NIX,NMC,NOR,NORT,NYEX,NYX,ODIN,OHMC,OPCX,ORE,PAC,PHL,PHR,PIVX,POLIS,PURA,QBIC,QTUM,RAP,REEX,RPD,RVN,SCN,SCRIBE,SEND,SEQ,SIB,SPK,STAK,SUB1X,SYS,TRB,TRC,UFO,UNO,VIA,VITAE,VIVO,VSX,VTC,WAGE,WGR,XC,XMCC,XMY,XN,XP,XVG,XZC'
+else:
+    COIN_LIST=sys.argv[1]
+    
 WALLETCONFPATH='../wallet-confs/'
 XBRIDGECONFPATH='../xbridge-confs/'
 
