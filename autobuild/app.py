@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-# This script should be run inside the autobuild directory. 
+#
+# app.py is the third step in migrating manifest and configs to the new j2
+# based workflow. It is also the main step in regular coin configuration 
+# maintenance. It should be run inside the autobuild directory. 
+#
 # It reads as sources of truth: 
 #        ../manifest.json
 #        configs/*.base.j2 
@@ -10,11 +14,11 @@
 # and writes new 
 #        ../{wallet,xbridge}-confs/*.conf 
 #
-# for input to other automation processes.
+# for input to other automation (eg: Docker image creation) processes.
 #
 # With no parameters it will process all the coins in the known COIN_LIST.
 # If a parameter is given it should be a comma separated list (no spaces) 
-# of specific coins to generate configs for. 
+# of specific coins to generate config fragments for. 
 # 
 from jinja2 import Template
 import json
@@ -71,32 +75,31 @@ for chain in data:
         base_config_fname = 'configs/{}.base.j2'.format(chain['ticker'].lower())
         base_config_template = J2_ENV.get_template(base_config_fname)
         base_config = json.loads(base_config_template.render())
-        ic(base_config)
+        #ic(base_config)
         merged_dict = (Merge(chain,base_config[chain['ticker']]))
-        #print(json.dumps(merged_dict, indent=2))
+        #ic(merged_dict)
         # get version data
         coin_title, p, this_coin_version = chain['ver_id'].partition('--')
-        ic(this_coin_version)
-        #print(json.dumps(merged_dict['versions'], indent=2))
+        #ic(this_coin_version)
         try:
             version_data = merged_dict['versions'][this_coin_version]
         except Exception as e:
             print('error, check manifest: {}'.format(chain['ticker']))
             print(merged_dict['versions'])
             raise Exception
+        #ic(version_data)
+
         # load xb j2
-        ic(version_data)
         custom_template_fname = 'templates/xbridge.conf.j2'
         custom_template = J2_ENV.get_template(custom_template_fname)
         updated_dict = Merge(version_data,merged_dict) 
         rendered_data = custom_template.render(updated_dict)
         #ic(rendered_data)
         write_file(XBRIDGECONFPATH+chain['ver_id']+'.conf', rendered_data)
-
         
+        #load wallet j2        
         custom_template_wallet_conf = 'templates/wallet.conf.j2'
         custom_template_wallet = J2_ENV.get_template(custom_template_wallet_conf)
         wallet_rendered_data = custom_template_wallet.render(updated_dict) 
         #ic(wallet_rendered_data)
         write_file(WALLETCONFPATH+chain['ver_id']+'.conf', wallet_rendered_data) # writes wallet conf
-

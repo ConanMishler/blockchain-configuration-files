@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
+#
+# cleanup-manifest.py is the first step in migrating manifest and configs to
+# the new j2 based workflow. It should be run from within the autobuild 
+# directory and takes no parameters. It reads, cleans, and re-writes
+#       ../manifest.json
+# and deletes old version files from 
+#       ../{wallet,xbridge}-confs/*.conf
+#  
+# It is expected to be a one-time execution tool.
+#
 import json
 import os, sys, os.path
 from shutil import copyfile
@@ -50,7 +60,6 @@ for chain in data:
         versions = chain['versions']
 
 
-#    xbridge_conf_files_path = os.getcwd() + '../xbridge-confs/' + old_xbridge_conf_ver.split(sep, 1)[0] + sep + '*.conf'
     xbridge_conf_files_path = '../xbridge-confs/' + old_xbridge_conf_ver.split(sep, 1)[0] + sep + '*.conf'
     for conf_path in glob.glob(xbridge_conf_files_path):
         conf_file_filename =  os.path.basename(os.path.normpath(conf_path))
@@ -58,7 +67,6 @@ for chain in data:
         if conf_file_version not in versions:            
             os.remove(conf_path)
     
-#    wallet_conf_files_path = os.getcwd() + '../wallet-confs/' + old_wallet_conf_ver.split(sep, 1)[0] + sep + '*.conf'
     wallet_conf_files_path = '../wallet-confs/' + old_wallet_conf_ver.split(sep, 1)[0] + sep + '*.conf'
     for conf_path in glob.glob(wallet_conf_files_path):
         conf_file_filename =  os.path.basename(os.path.normpath(conf_path))

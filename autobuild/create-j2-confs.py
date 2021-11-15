@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
+#
+# create-j2-confs.py is the second step in migrating manifest and configs to
+# the new j2 based workflow. It should be run from within the autobuild 
+# directory and takes no parameters. It reads
+#        ../manifest.conf 
+# and writes
+#        config/*.base.j2
+# files which are among the inputs to app.py.
+#
+# It is expected to be a one-time execution tool.
+#
 import json
-import os, sys, os.path
-import string
+import os, os.path
 from configparser import ConfigParser
 
 J2_CONF_PATH='configs/'
